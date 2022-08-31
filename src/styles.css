@@ -1,6 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
-
-
-h1{
-    background-color: red;
+.mt-59{
+    margin-top: 59px !important;
+}
+.sb2 {
+    background: #002147;
+    margin-top: 0px !important;
 }
