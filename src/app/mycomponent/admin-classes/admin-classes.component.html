@@ -1,0 +1,359 @@
+<div class="sb2-2 mt-59"  *ngIf="showList">
+    <!--== breadcrumbs ==-->
+    <div class="sb2-2-2">
+        <ul>
+            <li><a href="index-2.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+            </li>
+            <li class="active-bre"><a href="#"> All Classes</a>
+            </li>
+            <li class="page-back"><a href="index-2.html"><i class="fa fa-backward" aria-hidden="true"></i> Back</a>
+            </li>
+        </ul>
+    </div>
+    
+    
+
+
+    <!--== User Details ==-->
+    <div class="sb2-2-3">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box-inn-sp">
+                    <div class="inn-title">
+                        <h4>Classes Detail</h4>
+                        <p>All about students like name, student id, phone, email, country, city and more</p>
+                    </div>
+                    <div class="tab-inn">
+                        <div class="table-responsive table-desi">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>C.ID</th>
+                                        <th>Class Name</th>
+                                        <th>No. of seats</th>
+                                        <th>Assign to</th>
+                                        <th>Start Date</th>
+                                        <th>End Date</th>
+                                        <th>Start Time</th>
+                                        <th>Duration</th>
+                                        <th>Status</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1A2B</td>
+                                        <td>JavaScript</td>
+                                        <td>10</td>
+                                        <td>Ruby</td>
+                                        <td>12/05/2022</td>
+                                        <td>20/05/2022</td>
+                                        <td>10:00AM</td>
+                                        <td>20hr</td>
+                                        <td><a href="admin-exam-edit.html" class="ad-st-view">Active</a>
+                                        </td>
+                                        <td><a href="admin-exam-edit.html" class="ad-st-view">Edit</a>
+
+                                          <a href="" class="ad-st-view">Delete</a>
+                                        </td>
+                                        
+                                      
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                   <div class="input-field col s12">
+                      <i class="waves-effect waves-light btn-large waves-input-wrapper" style=""><input type="submit" class="waves-button-input" value="Submit">
+                      </i>
+                   </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<!-- admin new classes section start -->
+<div class="sb2-2 mt-59" *ngIf="showForm">
+    <!--== breadcrumbs ==-->
+    <div class="sb2-2-2">
+        <ul>
+            <li><a href="index-2.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+            </li>
+            <li class="active-bre"><a href="#"> Add New Class</a>
+            </li>
+            <li class="page-back"><a href="index-2.html"><i class="fa fa-backward" aria-hidden="true"></i> Back</a>
+            </li>
+        </ul>
+        
+    </div>
+    <!-- <h5>{{nametoDisplay}}</h5> -->
+
+    <!--== User Details ==-->
+    <div class="sb2-2-3">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box-inn-sp admin-form">
+    <div class="sb2-2-add-blog sb2-2-1">
+        <h2>New Class</h2>
+        
+
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade active in">
+                <div class="box-inn-sp">
+                    <div class="inn-title">
+                        <h4>Class Details</h4>
+                        <p>Airtport Hotels The Right Way To Start A Short Break Holiday</p>
+                    </div>
+                    <div class="bor">
+                        <form>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input type="text" value="" class="validate">
+                                    <label class="">Class Name</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="number" value="" class="validate">
+                                    <label>No Of Seats</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" value="" class="validate">
+                                    <label class="">Assign To</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="number" value="" class="validate">
+                                    <label>Start Date</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="number" value="" class="validate">
+                                    <label>End Date</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" value="" class="validate">
+                                    <label>Start time</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" value="" class="validate">
+                                    <label>Duration</label>
+                                </div>
+                            </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <div class="select-wrapper initialized"><span class="caret">▼</span><input type="text" class="select-dropdown" readonly="true" data-activates="select-options-8572fa69-a64f-284f-0e23-f370801d8c71" value="Select Status"><ul id="select-options-8572fa69-a64f-284f-0e23-f370801d8c71" class="dropdown-content select-dropdown "><li class="disabled "><span>Select Status</span></li><li class=""><span>Active</span></li><li class=""><span>De-Active</span></li></ul><select class="initialized">
+                          <option value="" disabled="" selected="">Select Status</option>
+                          <option value="1">Active</option>
+                          <option value="2">De-Active</option>
+                          
+                        </select></div>
+                                    </div>
+                                </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <i class="waves-effect waves-light btn-large waves-input-wrapper" style=""><input type="submit" class="waves-button-input" value="Submit"></i>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+                <div class="inn-title">
+                    <h4>Exam Details</h4>
+                    <p>Airtport Hotels The Right Way To Start A Short Break Holiday</p>
+                </div>
+                <div class="bor ad-cou-deta-h4">
+                        <form>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input type="text" value="Semester 1" class="validate">
+                                    <label class="active">Main exam name</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" value="Board Exam Training Classes" class="validate">
+                                    <label class="active">Exam name</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" value="12 may 2018" class="validate">
+                                    <label class="active">Date</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" value="10:00AM" class="validate">
+                                    <label class="active">Start time</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" value="03:00hrs" class="validate">
+                                    <label class="active">Duration</label>
+                                </div>
+                            </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <div class="select-wrapper initialized"><span class="caret">▼</span><input type="text" class="select-dropdown" readonly="true" data-activates="select-options-3c1d9c4d-4874-54c1-fc42-5055599f5210" value="Select Status"><ul id="select-options-3c1d9c4d-4874-54c1-fc42-5055599f5210" class="dropdown-content select-dropdown "><li class="disabled "><span>Select Status</span></li><li class=""><span>Active</span></li><li class=""><span>De-Active</span></li><li class=""><span>Delete</span></li></ul><select class="initialized">
+                          <option value="" disabled="" selected="">Select Status</option>
+                          <option value="1">Active</option>
+                          <option value="2">De-Active</option>
+                          <option value="3">Delete</option>
+                        </select></div>
+                                    </div>
+                                </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <i class="waves-effect waves-light btn-large waves-input-wrapper" style=""><input type="submit" class="waves-button-input" value="Submit"></i>
+                                </div>
+                            </div>
+                        </form>
+                </div>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+                <div class="inn-title">
+                    <h4>Exam Details</h4>
+                    <p>Airtport Hotels The Right Way To Start A Short Break Holiday</p>
+                </div>
+                <div class="bor">
+                        <form>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input type="text" value="Semester 1" class="validate">
+                                    <label class="active">Main exam name</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" value="Board Exam Training Classes" class="validate">
+                                    <label class="active">Exam name</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" value="12 may 2018" class="validate">
+                                    <label class="active">Date</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" value="10:00AM" class="validate">
+                                    <label class="active">Start time</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" value="03:00hrs" class="validate">
+                                    <label class="active">Duration</label>
+                                </div>
+                            </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <div class="select-wrapper initialized"><span class="caret">▼</span><input type="text" class="select-dropdown" readonly="true" data-activates="select-options-b0bd9c1d-46c9-cbbb-0ae3-aa979661ce8a" value="Select Status"><ul id="select-options-b0bd9c1d-46c9-cbbb-0ae3-aa979661ce8a" class="dropdown-content select-dropdown "><li class="disabled "><span>Select Status</span></li><li class=""><span>Active</span></li><li class=""><span>De-Active</span></li><li class=""><span>Delete</span></li></ul><select class="initialized">
+                          <option value="" disabled="" selected="">Select Status</option>
+                          <option value="1">Active</option>
+                          <option value="2">De-Active</option>
+                          <option value="3">Delete</option>
+                        </select></div>
+                                    </div>
+                                </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <i class="waves-effect waves-light btn-large waves-input-wrapper" style=""><input type="submit" class="waves-button-input" value="Submit"></i>
+                                </div>
+                            </div>
+                        </form>
+                </div>
+            </div>
+            <div id="menu3" class="tab-pane fade">
+                <div class="inn-title">
+                    <h4>Exam Details</h4>
+                    <p>Airtport Hotels The Right Way To Start A Short Break Holiday</p>
+                </div>
+                <div class="bor ad-cou-deta-h4">
+                                                        <form>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input type="text" value="Semester 1" class="validate">
+                                    <label class="active">Main exam name</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" value="Board Exam Training Classes" class="validate">
+                                    <label class="active">Exam name</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" value="12 may 2018" class="validate">
+                                    <label class="active">Date</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" value="10:00AM" class="validate">
+                                    <label class="active">Start time</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" value="03:00hrs" class="validate">
+                                    <label class="active">Duration</label>
+                                </div>
+                            </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <div class="select-wrapper initialized"><span class="caret">▼</span><input type="text" class="select-dropdown" readonly="true" data-activates="select-options-d1d1fd08-232c-d698-4e88-823865558be6" value="Select Status"><ul id="select-options-d1d1fd08-232c-d698-4e88-823865558be6" class="dropdown-content select-dropdown "><li class="disabled "><span>Select Status</span></li><li class=""><span>Active</span></li><li class=""><span>De-Active</span></li><li class=""><span>Delete</span></li></ul><select class="initialized">
+                          <option value="" disabled="" selected="">Select Status</option>
+                          <option value="1">Active</option>
+                          <option value="2">De-Active</option>
+                          <option value="3">Delete</option>
+                        </select></div>
+                                    </div>
+                                </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <i class="waves-effect waves-light btn-large waves-input-wrapper" style=""><input type="submit" class="waves-button-input" value="Submit"></i>
+                                </div>
+                            </div>
+                        </form>
+                </div>
+            </div>
+            <div id="menu4" class="tab-pane fade">
+                <div class="inn-title">
+                    <h4>Exam Details</h4>
+                    <p>Airtport Hotels The Right Way To Start A Short Break Holiday</p>
+                </div>
+                <div class="bor">
+                                                        <form>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input type="text" value="Semester 1" class="validate">
+                                    <label class="active">Main exam name</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" value="Board Exam Training Classes" class="validate">
+                                    <label class="active">Exam name</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" value="12 may 2018" class="validate">
+                                    <label class="active">Date</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" value="10:00AM" class="validate">
+                                    <label class="active">Start time</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" value="03:00hrs" class="validate">
+                                    <label class="active">Duration</label>
+                                </div>
+                            </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <div class="select-wrapper initialized"><span class="caret">▼</span><input type="text" class="select-dropdown" readonly="true" data-activates="select-options-310d77d0-b15b-95ed-ed31-c9726e7d865a" value="Select Status"><ul id="select-options-310d77d0-b15b-95ed-ed31-c9726e7d865a" class="dropdown-content select-dropdown "><li class="disabled "><span>Select Status</span></li><li class=""><span>Active</span></li><li class=""><span>De-Active</span></li><li class=""><span>Delete</span></li></ul><select class="initialized">
+                          <option value="" disabled="" selected="">Select Status</option>
+                          <option value="1">Active</option>
+                          <option value="2">De-Active</option>
+                          <option value="3">Delete</option>
+                        </select></div>
+                                    </div>
+                                </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <i class="waves-effect waves-light btn-large waves-input-wrapper" style=""><input type="submit" class="waves-button-input" value="Submit"></i>
+                                </div>
+                            </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- admin new classes section end -->
