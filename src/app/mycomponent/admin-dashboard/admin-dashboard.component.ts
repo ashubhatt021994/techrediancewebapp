@@ -11,5 +11,9 @@ export class AdminDashboardComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  clicked():void {
+    console.log("asdadasda");
+    
 
+  }
 }

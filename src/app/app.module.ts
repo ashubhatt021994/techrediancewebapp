@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -14,6 +15,7 @@ import { AdminAllCoursesComponent } from './mycomponent/admin-all-courses/admin-
 import { AdminNewEnquiryComponent } from './mycomponent/admin-new-enquiry/admin-new-enquiry.component';
 import { AdminImportComponent } from './mycomponent/admin-import/admin-import.component';
 import { AdminExportComponent } from './mycomponent/admin-export/admin-export.component';
+import { PagenotfoundComponent } from './mycomponent/pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
@@ -29,10 +31,12 @@ import { AdminExportComponent } from './mycomponent/admin-export/admin-export.co
     AdminNewEnquiryComponent,
     AdminImportComponent,
     AdminExportComponent,
+    PagenotfoundComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
