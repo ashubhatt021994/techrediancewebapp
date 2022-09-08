@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute,Router} from '@angular/router';
-import { ignoreElements } from 'rxjs';
+// import { ignoreElements } from 'rxjs';
 
 @Component({
   selector: 'app-admin-classes',
@@ -15,8 +15,7 @@ export class AdminClassesComponent implements OnInit {
 
   constructor(private route:ActivatedRoute) { }
   
-  selectedId: number | undefined;
-  select: any;
+
   ngOnInit() {
     this.kind = this.route.snapshot.data['kind'];
     if(this.kind=='list'){

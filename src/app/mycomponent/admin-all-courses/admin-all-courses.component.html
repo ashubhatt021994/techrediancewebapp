@@ -1,2 +1,128 @@
-<p>admin-all-courses works!</p>
-<router-outlet></router-outlet>
+<div *ngIf="showList">
+    <div class="sb2-2">
+        <!--== breadcrumbs ==-->
+        <div class="sb2-2-2">
+            <ul>
+                <li><a href="index-2.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                </li>
+                <li class="active-bre"><a href="#"> Courses</a>
+                </li>
+                <li class="page-back"><a href="index-2.html"><i class="fa fa-backward" aria-hidden="true"></i> Back</a>
+                </li>
+            </ul>
+        </div>
+
+        <!--== DASHBOARD INFO ==-->
+        <div class="sb2-2-1">
+            <h2>All Courses</h2>
+            
+            <div class="db-2 courses-list">
+                <ul>
+                    <li>
+                        <div class="dash-book dash-b-1">
+                            <h5>Python Training</h5>
+                            
+                            <a href="#">View more</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dash-book dash-b-2">
+                            <h5>Robotics course</h5>
+                            
+                            <a href="#">View more</a>
+                        </div>
+                    </li>
+                  
+                    <li>
+                        <div class="dash-book dash-b-3">
+                            <h5>Internet of Things Training</h5>
+                            
+                            <a href="#">View more</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dash-book dash-b-4">
+                            <h5>AI and Machine Learning</h5>
+                            <a href="#">View more</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dash-book dash-b-3">
+                            <h5>Ethical Hacking Training</h5>
+                            
+                            <a href="#">View more</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dash-book dash-b-4">
+                            <h5>Android Apps Development</h5>
+                            <a href="#">View more</a>
+                        </div>
+                    </li>
+                     <li>
+                        <div class="dash-book dash-b-3">
+                            <h5>Technical Workshop</h5>
+                            
+                            <a href="#">View more</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dash-book dash-b-4">
+                            <h5>internship program</h5>
+                            <a href="#">View more</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div *ngIf="showForm">
+    <div class="sb2-2">
+        <!--== breadcrumbs ==-->
+        <div class="sb2-2-2">
+            <ul>
+                <li><a href="index-2.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                </li>
+                <li class="active-bre"><a href="#"> Add new Course</a>
+                </li>
+                <li class="page-back"><a href="index-2.html"><i class="fa fa-backward" aria-hidden="true"></i> Back</a>
+                </li>
+            </ul>
+        </div>
+
+        <!--== User Details ==-->
+        <div class="sb2-2-3">
+            <div class="row">
+                <div class="col-md-12">
+                <div class="box-inn-sp admin-form">
+                        <div class="inn-title">
+                            <h4>Add New Course</h4>
+                            <p>Here you can edit your website basic details URL, Phone, Email, Address, User and password and more</p>
+                        </div>
+                        <div class="tab-inn">
+                            <form>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input type="text" value="" class="validate" required="">
+                                        <label class="">Course Name</label>
+                                    </div>
+                                    <div class="input-field col s12">
+                                        <input type="text" value="" class="validate" required="">
+                                        <label class="">Course Description</label>
+                                    </div>
+                                </div>
+                                
+                                                                      <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="waves-effect waves-light btn-large waves-input-wrapper" style=""><input type="submit" class="waves-button-input"></i>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
