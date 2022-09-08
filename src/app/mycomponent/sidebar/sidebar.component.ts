@@ -8,20 +8,11 @@ import { Router } from '@angular/router';
 })
 export class SidebarComponent implements OnInit {
 
-  
+
   constructor(private router: Router) { }
 
-  ngOnInit(){
+  ngOnInit() {
   }
-  
-  // show(flag: string){
-  //   if(flag=='all'){
-  //     this.router.navigate(['classes/AllClasses']);
-  //   }
-  //   else if(flag=='add'){
-  //     this.router.navigate(['classes/Add']);
-  //   }
-   
-  // }
-  
+
+
 }
