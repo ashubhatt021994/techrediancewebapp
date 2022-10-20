@@ -6,12 +6,14 @@ import { AdminDashboardComponent } from './mycomponent/admin-dashboard/admin-das
 import { AdminExportComponent } from './mycomponent/admin-export/admin-export.component';
 import { AdminImportComponent } from './mycomponent/admin-import/admin-import.component';
 import { AdminNewEnquiryComponent } from './mycomponent/admin-new-enquiry/admin-new-enquiry.component';
+import { HomePageComponent } from './mycomponent/home-page/home-page.component';
 import { PagenotfoundComponent } from './mycomponent/pagenotfound/pagenotfound.component';
 import { SidebarComponent } from './mycomponent/sidebar/sidebar.component';
 
 const routes: Routes = [
-  { path: '', redirectTo:'Dashboard',pathMatch:'full'},
-  { path: 'Dashboard', component: AdminDashboardComponent },
+  {path: '', redirectTo:'Techrediance',pathMatch:'full'},
+  {path: 'Techrediance', component: HomePageComponent},
+  {path: 'Dashboard', component: AdminDashboardComponent},
   {path: 'Sidebar', component: SidebarComponent},
   {path: 'Enquiry', component: AdminNewEnquiryComponent},
   {path: 'Import', component: AdminImportComponent},

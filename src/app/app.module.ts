@@ -16,6 +16,7 @@ import { AdminNewEnquiryComponent } from './mycomponent/admin-new-enquiry/admin-
 import { AdminImportComponent } from './mycomponent/admin-import/admin-import.component';
 import { AdminExportComponent } from './mycomponent/admin-export/admin-export.component';
 import { PagenotfoundComponent } from './mycomponent/pagenotfound/pagenotfound.component';
+import { HomePageComponent } from './mycomponent/home-page/home-page.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { PagenotfoundComponent } from './mycomponent/pagenotfound/pagenotfound.c
     AdminImportComponent,
     AdminExportComponent,
     PagenotfoundComponent,
+    HomePageComponent,
   ],
   imports: [
     BrowserModule,
